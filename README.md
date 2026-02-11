@@ -232,7 +232,7 @@ det_model = YOLOX(onnx_model='https://download.openmmlab.com/mmpose/v1/projects/
 
 # YOLOX multiclass detector
 det_model = YOLOX('https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_s.onnx',
-                     det_mode='multiclass', # or det_categories=[0,1,etc] if you want specific COCO_CLASSES IDs
+                     mode='multiclass',
                      backend=backend, device=device)
 
 # RTMPose pose estimator
