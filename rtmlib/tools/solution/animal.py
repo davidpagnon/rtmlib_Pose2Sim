@@ -46,8 +46,8 @@ class Animal:
             'https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_x.onnx',  # noqa
             'det_input_size': (640, 640),
             'pose':
-            'https://huggingface.co/JunkyByte/easy_ViTPose/resolve/main/onnx/apt36k/vitpose-h-apt36k.onnx',  # noqa
-            'pose_input_size': (288, 384),
+            'https://huggingface.co/JunkyByte/easy_ViTPose/resolve/main/onnx/apt36k/vitpose-l-apt36k.onnx',  # noqa
+            'pose_input_size': (192, 256),
         },
         'lightweight': {
             'det':
